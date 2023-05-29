@@ -1,0 +1,3 @@
+-----------------------correr proyecto ---------------------------
+1. abrir proyecto con visual studio
+2. abrir una terminal y usar el comando npm run dev

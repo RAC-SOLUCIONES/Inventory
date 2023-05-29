@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #aef5f5;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+
+  background-image: url('./img/');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #b6a9ff;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+tr:hover {
+  background-color: #9075f3;
+}
+
+#boton-editar {
+  background-color: #007bff;
+  color: #fff;
+}
+
+#boton-borrar {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+#boton-añadir{
+  background-color:  #7ed9fd;
+  color: #fff;
+}
+
+#botones-home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  flex-direction: column;
+  
+}
+
+#botones-home a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+button {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 150px;
+}
+
+button:hover {
+  background-color: #004c60;
+}
+
+a {
+  color: #008CBA;
+  font-size: 16px;
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+}
