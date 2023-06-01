@@ -15,6 +15,7 @@ h1 {
   margin-top: 50px;
 }
 
+/* Estilos para las tablas */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -39,6 +40,7 @@ tr:hover {
   background-color: #9075f3;
 }
 
+/* Estilos para los botones de las tablas */ 
 #boton-editar {
   background-color: #007bff;
   color: #fff;
@@ -54,6 +56,7 @@ tr:hover {
   color: #fff;
 }
 
+/* Estilos para los botones en general */
 #botones-home {
   display: flex;
   flex-wrap: wrap;
@@ -92,3 +95,56 @@ a {
   display: block;
   text-align: center;
 }
+
+/* Estilos para los labels */
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Estilos para los selects */
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+select:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+  }
+  
+  /* Estilos para las opciones del select */
+select option {
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+/* Estilos para las opciones del input */
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    transition: border-color 0.3s ease;
+  }
+
+input:focus {
+    outline: none;
+    border-color: #66afe9;
+  }
